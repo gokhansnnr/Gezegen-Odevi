@@ -1,0 +1,453 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1687905921605555, "dur": 1618135, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905921605957, "dur": 4546, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905921610507, "dur": 101265, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905921711892, "dur": 965832, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905922677727, "dur": 533843, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905923211572, "dur": 12117, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905923224374, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1687905922316313, "dur": 317660, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687905922318184, "dur": 123515, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687905922589532, "dur": 14638, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687905922604178, "dur": 29773, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687905922605723, "dur": 26784, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687905922647863, "dur": 2335, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687905922641554, "dur": 8726, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905923224486, "dur": 375, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687905922770890, "dur":1813, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905922772709, "dur":59, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687905922772786, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687905922772810, "dur":678, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687905922773614, "dur":1525, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905922775139, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923176324, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923176334, "dur":98, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923176432, "dur":2267, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178699, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178721, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178728, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178764, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178770, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178795, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178854, "dur":16, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923178884, "dur":9669, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687905922775089, "dur":88, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922775177, "dur":9500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922784678, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1687905922785259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922788833, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1687905922795237, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687905922795480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922795514, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687905922800198, "dur":949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687905922801155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922801317, "dur":4246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687905922806132, "dur":1243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687905922807480, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922807667, "dur":4451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687905922812240, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687905922812562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922812597, "dur":19872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687905922832604, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687905922832657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922832668, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687905922836733, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1687905922837013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922837675, "dur":120964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1687905922958764, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905922958809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922958833, "dur":11714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905922970793, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905922971070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905922971199, "dur":32124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923003358, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923003432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923003485, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923008669, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923008728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923008753, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923012636, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923012669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923012680, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923016906, "dur":5316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923022231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923022246, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923026533, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923026574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923026587, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923030646, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923030682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923030693, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923034555, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923034590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923034601, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923040162, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923040212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923040225, "dur":3996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923044259, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923044309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923044341, "dur":6483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923050862, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923050903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923050913, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923057976, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923058019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923058034, "dur":7129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923065202, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923065239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923065252, "dur":4540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923069849, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923069907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923069920, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923074512, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923074561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923074585, "dur":7548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923082174, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923082238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923082274, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923086199, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923086238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923086253, "dur":5034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923091327, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923091363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923091377, "dur":6097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923097509, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923097545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923097558, "dur":5964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923103553, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923103590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923103605, "dur":4447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923108090, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923108125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923108139, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923112143, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923112229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923112244, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923115789, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923115844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923115874, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923118490, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923118622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923118649, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923123559, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923123623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923123638, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923129024, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923129081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923129110, "dur":10216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923139366, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923139403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923139417, "dur":11573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687905923151023, "dur":6636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1687905923158097, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923158148, "dur":11269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1687905923169452, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1687905923169483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687905923169495, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1687905923174985, "dur":1119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922775067, "dur":98, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922775166, "dur":9524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922784691, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687905922785008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922792407, "dur":14004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687905922806521, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687905922806767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922807385, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687905922810972, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1687905922811222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922811254, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1687905922814389, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1687905922814634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922814665, "dur":7639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1687905922822407, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905922822531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905922822548, "dur":180769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923003435, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923003478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923003487, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923007522, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923007576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923007606, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923011192, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923011249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923011274, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923014634, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923014691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923014722, "dur":7550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923022308, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923022342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923022353, "dur":4532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923026918, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923026963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923026974, "dur":5166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923032179, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923032216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923032229, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923035664, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923035698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923035710, "dur":5597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923041340, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923041372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923041419, "dur":6100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923047553, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923047589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923047603, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923052112, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923052169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923052193, "dur":18067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923070297, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923070332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923070344, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923075029, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923075064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923075075, "dur":9406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923084511, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923084544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923084556, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923088368, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923088413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923088423, "dur":4872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923093338, "dur":3110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923096456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923096472, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923099433, "dur":1802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923101243, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923101264, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923104301, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923104334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923104350, "dur":24109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923128496, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923128542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923128567, "dur":5096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923133702, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923133739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923133752, "dur":17195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687905923150983, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687905923151058, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923151454, "dur":17128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687905923168620, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687905923168654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687905923168665, "dur":7370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687905923176073, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1687905923176076, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922775147, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922775148, "dur":9447, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922784615, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687905922784623, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922784702, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687905922784712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922787099, "dur":6954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687905922794060, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687905922794355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922794481, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687905922798707, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687905922799023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922800021, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687905922802986, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687905922803309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922803327, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687905922806145, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687905922806406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922807382, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687905922810423, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687905922810687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922810844, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687905922813689, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1687905922813958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922813971, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1687905922817674, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922817796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922817947, "dur":131024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922949126, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922949190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922949204, "dur":20503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922969743, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922970007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922970032, "dur":21152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922991224, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905922991264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905922991278, "dur":19875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923012194, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923012229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923012659, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923017372, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923017406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923017420, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923023401, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923023443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923023454, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923028719, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923028829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923028843, "dur":4420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923033297, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923033333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923033345, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923038149, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923038190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923038211, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923042700, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923042771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923042798, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923047537, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923047594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923047623, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923053900, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923053951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923053982, "dur":13058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923067541, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923067628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923068719, "dur":6055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923074812, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923074858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923074887, "dur":16819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923091895, "dur":6407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923098309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923098325, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923103233, "dur":3017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923106258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923106273, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923109920, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923109955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923109967, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923113307, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923113350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923113364, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923116892, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923116950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923116979, "dur":7352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923124371, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923124425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923124454, "dur":18992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923143488, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923144298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923144330, "dur":9551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687905923154663, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1687905923155183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923155196, "dur":9635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1687905923164871, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1687905923164903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923164915, "dur":5311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1687905923170255, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1687905923170557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687905923170568, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1687905923172897, "dur":3240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922775242, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922775243, "dur":9417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922784661, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1687905922785011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922788525, "dur":6185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1687905922794832, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687905922795109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922795122, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687905922805514, "dur":2985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687905922808515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922808547, "dur":6467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687905922815132, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922815273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922815844, "dur":9568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922825528, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687905922825679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922825690, "dur":45222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687905922871000, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922871033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922871424, "dur":30384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922901838, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922901901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922902052, "dur":32052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922934133, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922934171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922934181, "dur":35046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922969269, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922969325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922969355, "dur":11327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922980720, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922980771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922980784, "dur":10666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922991485, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905922991519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905922991530, "dur":12764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923004331, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923004380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923004391, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923007887, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923007955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923007969, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923011956, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923011990, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923012012, "dur":6805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923019189, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923019253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923019272, "dur":10284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923029589, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923029661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923029674, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923034375, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923034406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923034418, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923040490, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923040537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923040548, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923045490, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923045523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923045535, "dur":5132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923050703, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923050818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923050842, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923056315, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923056352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923056366, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923062642, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923062682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923062695, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923067330, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923067369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923067383, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923071805, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923071843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923071857, "dur":11417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923083306, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923083336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923083348, "dur":4546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923087930, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923087977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923087995, "dur":5714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923093754, "dur":4874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923098644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923098661, "dur":8777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923107482, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923107531, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923107553, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923111222, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923111281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923111312, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923114867, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923114902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923114930, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923117964, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923118020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923118048, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923121406, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923121440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923121457, "dur":10232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923131754, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923131795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923131851, "dur":11633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687905923143519, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1687905923143558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923143732, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1687905923149048, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687905923149082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923149094, "dur":10650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687905923159796, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687905923159845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687905923159857, "dur":14031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gokha/OneDrive/Masast/Uygulamalar/dev-1/Ilk Proje_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687905923173923, "dur":2383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687905923191365, "dur":3933, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1687905923224941, "dur": 1132, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687905923224353, "dur": 1761, "ph": "X", "name": "Write chrome-trace events", "args": {} },
